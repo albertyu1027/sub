@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Inputform from './components/Input/Inputform'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         </div>
 
         <div>
+          <Inputform />
         </div>
       </div>
     );
