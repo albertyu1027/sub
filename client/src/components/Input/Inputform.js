@@ -23,7 +23,7 @@ class Inputform extends Component {
           <span id="cc_validation" className="error_message"></span>
         </div>
           
-          <input id="submit_button" type="submit" value="Subscribe" />
+          <input id="submit_button" type="submit" value="subscribe" />
       </form>
       </div>
     )
