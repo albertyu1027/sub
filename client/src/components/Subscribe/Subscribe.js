@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import toothpaste from './toothpaste.jpg'
 import soap from './soap.jpg'
-import { Container, Row, Col } from 'reactstrap';
+import floss from './floss.jpg'
+import snacks from './Snacks.jpg'
+
 
 
 class Subscribe extends Component {
@@ -15,7 +17,17 @@ class Subscribe extends Component {
 
       <div>
       	<img src={ soap } alt= {"soap"} height="100" width="100" />
-      	<button className="companyOne">Add to Cart </button>
+      	<button className="companyTwo">Add to Cart </button>
+      </div>
+
+      <div>
+      	<img src={ floss } alt= {"floss"} height="100" width="100" />
+      	<button className="companyTwo">Add to Cart </button>
+      </div>
+
+      <div>
+      	<img src={ snacks } alt= {"snacks"} height="100" width="100" />
+      	<button className="companyTwo">Add to Cart </button>
       </div>
 
       </div>
@@ -25,3 +37,5 @@ class Subscribe extends Component {
 }
 
 export default Subscribe;
+
+
