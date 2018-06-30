@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Inputform from './components/Input/Inputform'
 import Subscribe from './components/Subscribe/Subscribe'
+import project from './components/Subscribe/project-man.jpg'
+import { Col, Row, Container } from "./components/Grid";
 
 class App extends Component {
   render() {
@@ -10,16 +12,21 @@ class App extends Component {
 
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-            <h2>Subscription Base</h2>
+          <img src={ project } className="App-logo" alt="logo" />
+            <h2>Manage your Projects </h2>
               </div>
 
-                <Inputform /> 
-                <Subscribe /> 
-         
-
+                <div className="App-input">
+                    <Inputform /> 
+                </div>
+                
+                
+                <div className="App-input">
+                    <Subscribe /> 
+                </div>
+               
+   
               </div>
-
     );
   }
 }

@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 //if the database doesnt exist, mongod will create it.
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/subscribe";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/project";
 // Set up promises with mongoose
 mongoose.Promise = global.Promise;
 // Connect to Mongo DB
